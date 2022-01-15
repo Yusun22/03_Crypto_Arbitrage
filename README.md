@@ -1,12 +1,12 @@
 # Crypto Arbitrage Calculations
 
-### This is a cryptocurrency arbitrage analysis of bitcoin's historical data from January - March 2018 on two different platforms: Bitstamp and Coinbase. Analysis and alculations were made after preparing and cleaning the data.
+### This is a cryptocurrency arbitrage analysis of bitcoin's historical data from January - March 2018 on two different platforms: Bitstamp and Coinbase. Analysis and calculations were made after preparing and cleaning the data.
 
 ---
 
 ## Technologies
 
-This project leverages python 3.7 and Jupyter lab notebook was used to run all analysis.
+This project leverages python 3.9 and Jupyter lab notebook was used to run all analysis.
 
 ---
 
