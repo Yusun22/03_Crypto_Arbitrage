@@ -60,7 +60,7 @@ To do so, a new dataframe was created for Bitstamp (bitstamp_sliced) and Coinbas
 
 Both dataframes were then overlayed to create a visualization of patterns:
 
-![Bistamp vs. Coinbase](Bitstamp_Coinbase.png)
+![Bistamp vs. Coinbase](Images/Bitstamp_Coinbase.png)
 
 However, to better visualize the data, an overlay plot of January 2018 and March 2018 were created in an attempt to find any drastic spread changes over time. Unfortunately, there were no big changes over these two months in 2018.
 
@@ -68,11 +68,11 @@ Next, three separate dates were chosen to look at the early, middle, and late tr
 
 **January 16, 2018 line plot**
 
-![January 16, 2018](Jan_16.png)
+![January 16, 2018](Images/Jan_16.png)
 
 **January 16, 2018 box plot**
 
-![January 16, 2018 box plot](Jan_16_box.png)
+![January 16, 2018 box plot](Images/Jan_16_box.png)
 
 **January 16, 2018 data summary**
 
@@ -92,11 +92,11 @@ According to the summary, there were 1419 data points where the average differen
 
 **February 24, 2018 line plot**
 
-![February 24, 2018](Feb_24.png)
+![February 24, 2018](Images/Feb_24.png)
 
 **February 24, 2018 box plot**
 
-![February 24, 2018 box plot](Feb_24_box.png)
+![February 24, 2018 box plot](Images/Feb_24_box.png)
 
 **February 24, 2018 data summary**
 
@@ -116,11 +116,11 @@ According to the summary, there were 1437 data points where the average differen
 
 **March 26, 2018 line plot**
 
-![March 26, 2018](Mar_26.png)
+![March 26, 2018](Images/Mar_26.png)
 
 **March 26, 2018 box plot**
 
-![March 26, 2018 box plot](Mar_26_box.png)
+![March 26, 2018 box plot](Images/Mar_26_box.png)
 
 **March 26, 2018 data summary**
 
@@ -320,7 +320,7 @@ max      606.800000
 Name: Close, dtype: float64
 ```
 
-![](Jan_16_profit.png)
+![](Images/Jan_16_profit.png)
 
 **February 24, 2018 potential profit per trade calculations and plot**
 
@@ -342,7 +342,7 @@ max      121.320000
 Name: Close, dtype: float64
 ```
 
-![](Feb_24_profit.png)
+![](Images/Feb_24_profit.png)
 
 From the two profitable trade days, the `sum() ` was used to calculate the sum of the potential profits.
 For January 16, the sum was $14,147.17 and for February 24, it was $330.70.
@@ -351,11 +351,11 @@ Lastly, using the `cumsum` function, the cumulative profits over time for Januar
 
 **Jan 16, 2018 cumulative**
 
-![](Jan_16_cumsum.png)
+![](Images/Jan_16_cumsum.png)
 
 **Feb 16, 2018 cumulative**
 
-![](Feb_24_cumsum.png)
+![](Images/Feb_24_cumsum.png)
 
 ---
 
